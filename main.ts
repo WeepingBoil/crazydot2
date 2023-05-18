@@ -20,13 +20,13 @@ function Move () {
     if (x[0] == tx && y[0] == ty) {
         SetPoint()
         return
-    } else if (x[0] < tx) {
+    }  if (x[0] < tx) {
         dx = 1
-    } else if (x[0] > tx) {
+    }  if (x[0] > tx) {
         dx = -1
-    } else if (y[0] < ty) {
+    }  if (y[0] < ty) {
         dy = 1
-    } else if (y[0] > ty) {
+    }  if (y[0] > ty) {
         dy = -1
     }
     x.unshift(x[0] + dx)
